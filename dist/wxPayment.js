@@ -1,6 +1,5 @@
 export default function wxPayment(payData) {
   return new Promise((resolve, reject) => {
-    console.log(payData,typeof payData !== 'object',typeof payData);
     if (typeof payData !== 'object'){
       reject({msg:'params err!',err:0});
       return;
