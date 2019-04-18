@@ -1,5 +1,5 @@
-import userInfo from "../../common/js/userInfo";
-import debounce from "../../common/js/debounce";
+import userInfo from "wx-mini-program-user";
+
 let App = getApp();
 
 Page({

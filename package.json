@@ -1,0 +1,28 @@
+{
+  "name": "wx-mini-program-common",
+  "version": "1.0.0",
+  "description": "> 微信小程序通用API封装",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "miniprogram": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunxi1997/wx-mini-program-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunxi1997/wx-mini-program-common/issues"
+  },
+  "homepage": "https://github.com/sunxi1997/wx-mini-program-common#readme",
+  "dependencies": {
+    "sx-event": "^1.0.3",
+    "wx-mini-program-cache": "^1.0.3",
+    "wx-mini-program-user": "^1.0.5"
+  }
+}

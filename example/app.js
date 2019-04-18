@@ -1,6 +1,6 @@
-import throttle from "./common/js/throttle";
-import userInfo from './common/js/userInfo'
+import throttle from "./js/throttle";
 
+import userInfo from 'wx-mini-program-user'
 
 //app.js
 App({
@@ -28,6 +28,8 @@ App({
                 this.doLogin();
 
 
+        },err=>{
+            console.log(err);
         })
     },
 
