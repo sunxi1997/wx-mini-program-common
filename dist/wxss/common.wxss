@@ -54,44 +54,44 @@
 /*****文本*****/
 
 .note{
-    font-size: 0.8rem;
+    font-size: 22rpx;
     color: #bbb}
 
-.f-06{
-    font-size: 0.6rem}
-
-.f-08{
-    font-size: 0.8rem}
-
-.f-09{
-    font-size: 0.9rem}
-
-.f-10{
-    font-size: 1rem}
-
-.f-10_5{
-    font-size: 1.05rem}
-
-.f-11{
-    font-size: 1.1rem}
-
-.f-12{
-    font-size: 1.2rem}
-
-.f-12{
-    font-size: 1.3rem}
-
-.f-14{
-    font-size: 1.4rem}
-
-.f-16{
-    font-size: 1.6rem}
-
 .f-18{
-    font-size: 1.8rem}
+    font-size: 18rpx}
 
 .f-20{
-    font-size: 2.0rem}
+    font-size: 20rpx}
+
+.f-22{
+    font-size: 22rpx}
+
+.f-24{
+    font-size: 24rpx}
+
+.f-26{
+    font-size: 26rpx}
+
+.f-28{
+    font-size: 28rpx}
+
+.f-30{
+    font-size: 30rpx}
+
+.f-32{
+    font-size: 32rpx}
+
+.f-34{
+    font-size: 34rpx}
+
+.f-36{
+    font-size: 36rpx}
+
+.f-38{
+    font-size: 38rpx}
+
+.f-40{
+    font-size: 40rpx}
 
 .t-left {
     text-align: left}
@@ -108,8 +108,21 @@
     text-overflow: ellipsis;
     white-space: nowrap}
 
+/*两行隐藏*/
+.t-ellipsis-line2 {
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
 .line-h2{
     line-height: 2}
+
+.line-h1_5{
+    line-height: 1.5}
 
 .line-h3{
     line-height: 3}
@@ -147,32 +160,26 @@
 
 /*****边距*****/
 
-.m-8{
-    margin:8px 8px 0}
+.m-16{
+    margin:16rpx 16rpx 0}
 
-.m-20{
-    margin:20px 20px 0}
-
-.p-8{
-    padding:8px}
+.m-32{
+    margin:32rpx 32rpx 0}
 
 .p-16{
-    padding: 16px}
+    padding:16rpx}
+
+.p-32{
+    padding: 32rpx}
 
 .m-top0{
     margin-top:0!important}
 
-.m-top8 {
-    margin-top: 8px}
+.m-top16 {
+    margin-top: 16rpx}
 
-.m-top20 {
-    margin-top: 20px}
-
-.m-top50 {
-    margin-top: 50px}
-
-.m-top70 {
-    margin-top: 70px}
+.m-top32 {
+    margin-top: 32rpx}
 
 /*****定位*****/
 
@@ -220,8 +227,14 @@
 .z-index5{
     z-index: 5}
 
-.z-index999{
-    z-index: 999}
+.z-index1000{
+    z-index: 1000}
+
+.z-index2000{
+    z-index: 2000}
+
+.z-index3000{
+    z-index: 2000}
 
 /*****盒样式*****/
 
@@ -242,4 +255,8 @@
 
 .shadow{
     box-shadow: 0 0 2px 1px rgba(0,0,0,0.05)}
+
+.shadow-deep{
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)}
+
 

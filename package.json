@@ -1,6 +1,6 @@
 {
   "name": "wx-mini-program-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> 微信小程序通用API封装",
   "main": "dist/index.js",
   "directories": {

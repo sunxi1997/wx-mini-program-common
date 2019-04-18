@@ -1,4 +1,4 @@
-import throttle from "./js/throttle";
+import throttle from "./../dist/throttle";
 
 import userInfo from 'wx-mini-program-user'
 
