@@ -27,6 +27,9 @@
 .flex-x-between {
     justify-content: space-between}
 
+.flex-x-evenly{
+    justify-content: space-evenly}
+
 .flex-x-around {
     justify-content: space-around}
 
@@ -181,6 +184,12 @@
 .m-top32 {
     margin-top: 32rpx}
 
+.m-top64{
+    margin-top:64rpx}
+
+.m-top128{
+    margin-top:128rpx}
+
 /*****定位*****/
 
 .absolute {
@@ -257,6 +266,6 @@
     box-shadow: 0 0 2px 1px rgba(0,0,0,0.05)}
 
 .shadow-deep{
-    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)}
+    box-shadow: 0 0 6px 1px rgba(0,0,0,0.1)}
 
 
