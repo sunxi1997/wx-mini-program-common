@@ -325,11 +325,27 @@ function goBack(config = {delta: 1}) {
 
 /**
  * 转换参数为get类型
+ *
+ * @param {String} url     - 前置url
+ * @param {Object} params  - 要转换的参数
+ *
+ * @return {String}
+ *
+ * @example
+ *
+ * parseDataToUrl('xxx', {})              // xxx
+ * parseDataToUrl('xxx', {a:1})           // xxx?a=1
+ * parseDataToUrl('xxx?a=1', {b:2})       // xxx?a=1&b=2
+ * parseDataToUrl('xxx?a=1', {b:2,c:3})   // xxx?a=1&b=2&c=3
+ *
  */
 function parseDataToUrl(url, params) {
-   return typeof url !== "string" || typeof params !== "object" ?
-      console.error('type error!', url, params) :
-      `${url}?${Object.keys(params).map(key => `${key}=${params[key]}`).join('&')}`
+   if (typeof url !== "string" || typeof params !== "object"){
+      console.error('type error!', url, params);
+      return url;
+   }
+   let keys = Object.keys(params);
+   return `${url}${url.includes('?')?'&':keys.length>0?'?':''}${keys.map(key => `${key}=${params[key]}`).join('&')}`
 }
 
 

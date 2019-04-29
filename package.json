@@ -1,6 +1,6 @@
 {
   "name": "wx-mini-program-common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> 微信小程序通用JS、通用样式封装",
   "main": "dist/index.js",
   "directories": {
@@ -21,8 +21,6 @@
   },
   "homepage": "https://github.com/sunxi1997/wx-mini-program-common#readme",
   "dependencies": {
-    "sx-event": "^1.0.3",
-    "wx-mini-program-cache": "^1.0.3",
-    "wx-mini-program-user": "^1.0.5"
+    "sx-event": "^1.0.3"
   }
 }

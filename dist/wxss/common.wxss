@@ -6,6 +6,9 @@
 .bg-t {
     background: transparent}
 
+.bg-transparent{
+    background: transparent}
+
 /*****flex 布局*****/
 
 .flex {
@@ -35,6 +38,9 @@
 
 .flex-x-end {
     justify-content: flex-end}
+
+.flex-y-start{
+    align-items: flex-start}
 
 .flex-y-center {
     align-items: center}
@@ -151,6 +157,9 @@
 .color-p {
     color: #57AFF9}
 
+.color-transparent{
+    color:transparent}
+
 /*****尺寸*****/
 
 .h-100{
@@ -163,6 +172,9 @@
 
 /*****边距*****/
 
+.margin-0{
+    margin:0!important}
+
 .m-16{
     margin:16rpx 16rpx 0}
 
@@ -174,6 +186,9 @@
 
 .p-32{
     padding: 32rpx}
+
+.p-64{
+    padding: 64rpx}
 
 .m-top0{
     margin-top:0!important}
@@ -204,14 +219,26 @@
 .top-0 {
     top: 0}
 
+.top-100{
+    top: 100%}
+
 .bottom-0 {
     bottom: 0}
+
+.bottom-100{
+    bottom: 100%}
 
 .left-0 {
     left: 0}
 
+.left-100{
+    left: 100%}
+
 .right-0 {
     right: 0}
+
+.right-100{
+    right: 100%}
 
 .pos-center {
     top: 50%;
@@ -247,7 +274,7 @@
 
 /*****盒样式*****/
 
-.borer-box{
+.border-box{
     box-sizing: border-box}
 
 .over-hidden{
@@ -257,7 +284,10 @@
     overflow: visible}
 
 .radius{
-    border-radius: 5px}
+    border-radius: 5rpx}
+
+.radius-15{
+    border-radius: 15rpx}
 
 .circle{
     border-radius:50%}
