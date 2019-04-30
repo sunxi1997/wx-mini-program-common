@@ -9,6 +9,18 @@
 .bg-transparent{
     background: transparent}
 
+.bg-danger {
+    background-color: #d9534f}
+
+.bg-success{
+    background-color: #5cb85c}
+
+.bg-info{
+    background-color: #5bc0de}
+
+.bg-warning{
+    background-color: #f0ad4e}
+
 /*****flex 布局*****/
 
 .flex {
@@ -160,6 +172,18 @@
 .color-transparent{
     color:transparent}
 
+.color-danger {
+    color: #d9534f}
+
+.color-success{
+    color: #5cb85c}
+
+.color-info{
+    color: #5bc0de}
+
+.color-warning{
+    color: #f0ad4e}
+
 /*****尺寸*****/
 
 .h-100{
@@ -284,7 +308,7 @@
     overflow: visible}
 
 .radius{
-    border-radius: 5rpx}
+    border-radius: 10rpx}
 
 .radius-15{
     border-radius: 15rpx}
